@@ -1,0 +1,63 @@
+.star{
+	width: 25px;
+	height: 25px;
+	background-size: 100% 100%;
+	display: block;
+	float: left;
+	transition: all .3s ease;
+	margin: 0px 3px;
+}
+.star_rate_100{
+	background-image: url("rate_100.png");
+}
+.star_rate_75{
+	background-image: url("rate_75.png");
+}
+.star_rate_25{
+	background-image: url("rate_25.png");
+}
+.star_rate_50{
+	background-image: url("rate_50.png");
+}
+.star_rate_0{
+	background-image: url("star.png");
+}
+.star-box{
+	width: 100%;
+	float: left;
+}
+#submit_post{
+	padding: 7px 35px;
+	background: #2020e4;
+	color: lightgray;
+	border-radius: 3px;
+	border: 1px solid #08083e;
+	cursor: pointer;
+	float: right;
+}
+#submit_post:hover, #submit_post:focus{
+	background: #4949f0;
+	color: white;
+	border-color: #9393ff;
+	box-shadow: 0 0 1px #19192a;
+}
+#textarea_post{
+	width: 100%;
+	float: left;
+	height: 50px;
+	padding: 7px 15px;
+	border-radius: 3px;
+	border: 1px solid gray;	
+}
+.form-group{
+	margin-bottom: 15px;
+	width: 100%;
+	float: left;
+}
+.list-vote-item{
+	padding: 7px 15px;
+	border-bottom: 1px solid lightgray;
+}
+.list-vote-item:last-child{
+	border: 0;
+}
